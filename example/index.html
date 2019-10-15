@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Double Click to Select Code Example</title>
+
+    <link rel="stylesheet" type="text/css" href="prism.css" />
+    <script src="../dblclick_highlight.js"></script>
+    <script src="clipboard.min.js"></script>
+    <script src="prism.js"></script>
+  </head>
+  <body>
+    Sample XML from <a href="https://www.w3schools.com/xml/note.xml" target="_blank">W3Schools</a>
+    <h1>Without double click to select</h1>
+    =========START=========
+    <pre><code class="line-numbers language-xml">
+      &lt;?xml version="1.0" encoding="UTF-8"?>
+      &lt;note>
+        &lt;script/>
+        &lt;to>Tove&lt;/to>
+        &lt;from>Jani&lt;/from>
+        &lt;heading>Reminder&lt;/heading>
+        &lt;body>Don't forget me this weekend!&lt;/body>
+      &lt;/note>
+    </code></pre>
+    =========END=========
+    <br/><br/>
+    <h1>With double click to select</h1>
+    =========START=========
+    <pre><code class="line-numbers language-xml double-click-highlight">
+      &lt;?xml version="1.0" encoding="UTF-8"?>
+      &lt;note>
+        &lt;script/>
+        &lt;to>Tove&lt;/to>
+        &lt;from>Jani&lt;/from>
+        &lt;heading>Reminder&lt;/heading>
+        &lt;body>Don't forget me this weekend!&lt;/body>
+      &lt;/note>
+    </code></pre>
+    =========END=========
+    <br/>
+  </body>
+</html>
